@@ -1,0 +1,158 @@
+/* Style global pour la page d'investissement */
+.invest-page {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #fffbfb;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="number"],
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Style pour la zone du code de suivi */
+.tracking-code {
+  margin-top: 20px;
+}
+
+.tracking-code input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 70%;
+  font-size: 14px;
+}
+
+.tracking-code button {
+  width: 25%;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.tracking-code button:hover {
+  background-color: #218838;
+}
+
+/* Style de la barre de progression */
+.progress-bar {
+  width: 100%;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  height: 20px;
+  margin: 20px 0;
+}
+
+.progress-bar .progress {
+  height: 100%;
+  background-color: #007bff;
+  width: 0;
+  transition: width 5s ease;
+}
+
+/* Style pour les boutons d'action après la progression */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.whatsapp-button,
+.receive-payment-button {
+  padding: 12px 20px;
+  font-size: 14px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-button {
+  background-color: #25d366;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.whatsapp-button:hover {
+  background-color: #1da854;
+}
+
+.receive-payment-button {
+  background-color: #007bff;
+  flex: 1;
+}
+
+.receive-payment-button:hover {
+  background-color: #0056b3;
+}
+
+/* Style pour les messages d'erreur et d'alerte */
+.error-message,
+.success-message {
+  padding: 10px;
+  color: white;
+  background-color: #f44336; /* rouge */
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.success-message {
+  background-color: #4caf50; /* vert */
+}
+
